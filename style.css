@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.screen{
+    display: flex;
+    height: 100vh;
+}
+
+.leftside{
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.leftside img{
+    max-width: 36vw;
+    height: auto; 
+}
+
+.rightside{
+    position: relative;
+    width: 35vw;
+    background-color: rgba(128, 128, 128, 0.579);
+    padding: 30px;
+    padding-top: 40px;
+}
+
+.rightside label{
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+.rightside input{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: 0;
+}
+
+.rightside > label#register{
+    background-color: blue;
+}
