@@ -56,3 +56,16 @@ body{
     border-radius: 3px;
     padding: 3px;
 }
+
+#sign-in {
+    display: block;
+    justify-items: center;
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
