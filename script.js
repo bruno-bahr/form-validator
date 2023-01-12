@@ -29,17 +29,17 @@ let Validator = {
                 switch(rDetails[0]) {
                     case 'required':
                         if (input.value == '') {
-                            return 'Favor preencher este campo!';
+                            return 'Fill out this field, please!';
                         }
                     break;
                     case 'min':
                         if (input.value.length < rDetails[1]) {
-                            return `Campo deve ter pelo menos ${rDetails[1]} caracteres`
+                            return `This field must have at least ${rDetails[1]} characters.`
                         }
                     break;
                     case 'password':
                         if(input.value.length < rDetails[1]){
-                            return `Senha deve ter pelo menos ${rDetails[1]} caracteres`
+                            return `Password must hava at least ${rDetails[1]} characters.`
                         }
                     break;
                 }
