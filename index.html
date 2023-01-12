@@ -20,17 +20,17 @@
             <form method="POST" action="cadastro.py" class="validator">
                 <label for="name">
                     Enter your name: <br>
-                    <input type="text" name="name" data-rules="required">
+                    <input type="text" name="name" data-rules="required|min=2">
                 </label>
                 <label for="email">
                     Enter your email address <br>
-                    <input type="email" name="email" id="iemail">
+                    <input type="email" name="email" id="iemail" data-rules="required">
                 </label>
                 <label for="password">
                     Enter your password <br>
-                    <input type="password" name="password" id="ipassword">
+                    <input type="password" name="password" id="ipassword" data-rules="required|min=6">
                 </label>
-                <label id="register">
+                <label class="register">
                     <input type="submit" value="Register">
                 </label>
             </form>

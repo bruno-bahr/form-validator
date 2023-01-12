@@ -49,6 +49,10 @@ body{
     outline: 0;
 }
 
-.rightside > label#register{
-    background-color: blue;
+.error {
+    font-size: medium;
+    color: #fff;
+    background-color: #ff0000c0;
+    border-radius: 3px;
+    padding: 3px;
 }
